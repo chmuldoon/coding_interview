@@ -181,3 +181,13 @@ console.log("Times for Everyone");
 formatResultForConsole (
   findCommonTimesBetweenUsers(["Jane", "John", "Maggie", "Nick", "Emily", "Joe", "Jordan"])
 )
+
+// Try your own examples,
+
+// Console log findCommonTimesBetweenUsers on its own see the results 
+// in their unparsed state
+
+
+// formatResultForConsole (
+//   findCommonTimesBetweenUsers([YOUR LIST HERE])
+// )
