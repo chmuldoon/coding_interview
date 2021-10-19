@@ -1,3 +1,30 @@
+
+# Instructions 
+
+To run the script run the following in your terminal while within the repository 
+
+```
+npm run start
+```
+
+# Notes
+
+I opted to use JavaScript for this challenge as its what I work with most of the time. I took a functional approach to the problem.
+
+The steps are fairly simple:
+
+1. Find the users whose names are in the input list.
+
+2. Find the events of the users from the input list by indetifying them by their user_id
+
+3. Sort our new found events by start time
+
+4. From our list of events, find the time ranges where there is no event going on.
+
+5. Return a list of free time slots 
+
+I opted to separate the sorted events into separate lists of events for each day this allowed for a much cleaner and concise function for finding the available time blocks in the day. 
+
 # Background
 
 Most calendar applications provide some kind of "meet with" feature where the user
