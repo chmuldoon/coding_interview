@@ -1,0 +1,21 @@
+{
+  "name": "coding_interview",
+  "version": "1.0.0",
+  "description": "Most calendar applications provide some kind of \"meet with\" feature where the user can input a list of coworkers with whom they want to meet, and the calendar will output a list of times where all the coworkers are available.",
+  "main": "interview.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node interview.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chmuldoon/coding_interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chmuldoon/coding_interview/issues"
+  },
+  "homepage": "https://github.com/chmuldoon/coding_interview#readme"
+}
