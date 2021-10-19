@@ -147,6 +147,37 @@ const formatResultForConsole = commonTimes => {
   return;
 }
 
+/*
+Format of Results: 
+
+Available Times:
+----------------------------
+2021-07-05 15:30:00-19:00:00
+2021-07-05 19:30:00-20:00:00
+----------------------------
+2021-07-06 14:30:00-15:00:00
+2021-07-06 19:00:00-19:30:00
+----------------------------
+2021-07-07 15:00:00-15:15:00
+2021-07-07 15:45:00-16:00:00
+2021-07-07 18:30:00-19:00:00
+2021-07-07 19:30:00-20:00:00
+----------------------------
+*/
+
+// Examples
+
+console.log("Times for Maggie, Joe and Jordan");
 formatResultForConsole (
   findCommonTimesBetweenUsers(["Maggie",  "Joe", "Jordan"])
+)
+
+console.log("Times for Emily, Joe, John, Nick and Jordan");
+formatResultForConsole (
+  findCommonTimesBetweenUsers(["Emily",  "Joe", "John", "Nick", "Jordan"])
+)
+
+console.log("Times for Everyone");
+formatResultForConsole (
+  findCommonTimesBetweenUsers(["Jane", "John", "Maggie", "Nick", "Emily", "Joe", "Jordan"])
 )
